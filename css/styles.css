@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    list-style-type: none;
+}
+
+.logo {
+    background-color: #48f73c;
+    color: #666;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.title {
+
+    padding: 10px 0;
+    color: #fff;
+}
+
+.nav-header {
+    background-color: #3a9034;
+
+}
+
+.nav-header_items {
+    display: flex;
+}
+
+.nav-header_items>li {
+    margin: 0 10px 0 10px;
+}
+
+.nav-header_items>li>a {
+    color: #fff;
+
+}
+
+.banner {
+    background-image: url(../img/paisaje1.jpg);
+    background-size: cover;
+    width: auto;
+    height: 200px;
+}
+
+.section-cards {
+    padding: 0;
+    margin-top: 50px;
+}
+
+.card-1 {
+    background-color: #d9d78d;
+    border: 5px solid #e5f82d;
+    border-radius: 30px 0px 30px 0px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.title-card {
+    margin: 10px 0 10px 0;
+}
+
+.card-2 {
+    background-color: #89f373;
+    border: 5px solid #04f518;
+    border-radius: 30px 0px 30px 0px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.card-3 {
+    background-color: #7191e9;
+    border: 5px solid #2b14fa;
+    border-radius: 30px 0px 30px 0px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+.review {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px 0;
+}
+
+.review:last-child {
+    border-bottom: none;
+}
+
+.review h3 {
+    margin: 0;
+    padding-bottom: 5px;
+    color: #333;
+}
+
+.review p {
+    margin: 10px 0 0 0;
+    color: #666;
+}
+
+.stars {
+    display: flex;
+    direction: row;
+    justify-content: flex-start;
+}
+
+.stars input[type="radio"] {
+    display: none;
+}
+
+.stars label {
+    color: gray;
+    font-size: 1.2em;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.stars input[type="radio"]:checked~label {
+    color: #FFD700;
+}
+
+.stars label:hover,
+.stars label:hover~label {
+    color: #FFD700;
+}
